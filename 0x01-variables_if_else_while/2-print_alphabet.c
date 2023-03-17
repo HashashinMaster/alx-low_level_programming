@@ -12,7 +12,7 @@
  */
 int main(void)
 {
-	char lower[] = "abcdefghijklmnopkrstuvwxyz";
+	char lower[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; lower[i] != '\0'; i++)
