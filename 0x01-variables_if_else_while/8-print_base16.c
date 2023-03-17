@@ -20,5 +20,5 @@ int main(void)
 		else
 			putchar('a' + i - 10);
 	putchar('\n');
-	return 0;
+	return (0);
 }
