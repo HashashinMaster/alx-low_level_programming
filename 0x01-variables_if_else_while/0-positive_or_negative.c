@@ -3,9 +3,13 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/* checking stat of n
- * and print it
-*/
+/**
+ * main - Entry point
+ *
+ * Description: 'checking a random number stat'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
