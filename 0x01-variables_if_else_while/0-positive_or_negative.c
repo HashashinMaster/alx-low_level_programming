@@ -5,16 +5,15 @@
 int main(void)
 {
 	int n;
-	char nStat[13];
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if(n > 0)
-		strcpy(nStat,"is positive");
-	else if (n === 0)
-		strcpy(nStat,"is zero");
+		printf("%d is positive",n);
+	else if (n == 0)
+		printf("%d is zero",n);
 	else
-		strcpy(nStat,"is negative");
-	printf("d% s%",n,nStat);
+		printf("%d is negative",n);
 	return (0);
+}
 
