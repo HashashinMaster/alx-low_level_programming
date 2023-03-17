@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/* assign a random number to the variable n each time it is executed and checking it stat */
+/* checking stat of n */
 int main(void)
 {
 	int n;
