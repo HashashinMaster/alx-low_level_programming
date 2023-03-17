@@ -3,9 +3,9 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/* checking stat of n */
 int main(void)
 {
+	/* checking stat of n */
 	int n;
 
 	srand(time(0));
