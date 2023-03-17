@@ -16,9 +16,8 @@ int main(void)
 	int i;
 
 	for (i = 0; lower[i] != '\0'; i++)
-		if (lower[i] != 'q' && lower[i] != 'e') {
+		if (lower[i] != 'q' && lower[i] != 'e')
 			putchar(lower[i]);
-		}
 	putchar('\n');
 	return (0);
 }
