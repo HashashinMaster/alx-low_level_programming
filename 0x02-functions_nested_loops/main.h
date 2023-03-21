@@ -8,7 +8,7 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
-void print_alphabet()
+void print_alphabet(void)
 {
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
