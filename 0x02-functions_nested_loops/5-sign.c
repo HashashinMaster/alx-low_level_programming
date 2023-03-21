@@ -8,7 +8,7 @@
  *
  */
 int print_sign(int c)
-{	
+{
 	if (c > 1)
 	{
 		_putchar('+');
