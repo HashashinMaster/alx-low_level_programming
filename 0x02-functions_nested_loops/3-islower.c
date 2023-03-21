@@ -2,7 +2,8 @@
 
 /**
  * _islower - checks if char is lower
- * @parameter: c int
+ *
+ * @c: int
  * Return: 0 or 1
  *
  */
