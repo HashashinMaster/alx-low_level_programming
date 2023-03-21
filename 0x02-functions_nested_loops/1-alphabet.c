@@ -7,12 +7,12 @@
  */
 void print_alphabet(void)
 {
-        char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
-        int i;
+	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-        for (i = 0; alphabets[i] != '\0'; i++)
-        {
-                _putchar(alphabets[i]);
-        }
-        _putchar('\n');
+	for (i = 0; alphabets[i] != '\0'; i++)
+	{
+		_putchar(alphabets[i]);
+	}
+	_putchar('\n');
 }
