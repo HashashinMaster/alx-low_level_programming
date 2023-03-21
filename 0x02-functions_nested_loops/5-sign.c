@@ -8,9 +8,7 @@
  *
  */
 int print_sign(int c)
-{
-	int i;
-	
+{	
 	if (c > 1)
 	{
 		_putchar('+');
