@@ -1,7 +1,11 @@
 #include "main.h"
 
 
-
+/**
+ * print_alphabet_x10 - printing alphabets x10
+ *
+ * Return: Always 0.
+ */
 void print_alphabet_x10(void)
 {
 	int i;
