@@ -1,12 +1,18 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - printing alphabets
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+        char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
+        int i;
+
+        for (i = 0; alphabets[i] != '\0'; i++)
+        {
+                _putchar(alphabets[i]);
+        }
+        _putchar('\n');
 }

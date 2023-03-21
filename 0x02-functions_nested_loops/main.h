@@ -8,14 +8,4 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
-void print_alphabet(void)
-{
-	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-
-	for (i = 0; alphabets[i] != '\0'; i++)
-	{
-		_putchar(alphabets[i]);
-	}
-	_putchar('\n');
-}
+void print_alphabet(void);
