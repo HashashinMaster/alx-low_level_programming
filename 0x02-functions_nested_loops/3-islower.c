@@ -2,8 +2,9 @@
 
 /**
  * _islower - checks if char is lower
+ * parameter: c int
+ * Return: 0 or 1
  *
- * Return: Always 0.
  */
 int _islower(int c)
 {
