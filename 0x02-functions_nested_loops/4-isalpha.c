@@ -15,7 +15,7 @@ int _isalpha(int c)
 
 	for (i = 0; alphabets[i] != '\0'; i++)
 	{
-		if (c == alphabets[i] && c == ALPHABETS[i])
+		if (c == alphabets[i] || c == ALPHABETS[i])
 		{
 			return (1);
 		}
