@@ -11,7 +11,9 @@ int main(void)
 	char charString[] = "_putchar";
 
     	for (i = 0; charString[i] != '\0'; i++)
+	{
 		_putchar(charString[i]);
+	}
 	_putchar('\n');
     	return (0);
 }
