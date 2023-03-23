@@ -3,7 +3,7 @@
  * _isupper - check if parameter is upper
  * @c: The first integer
  *
- * Return: The sum of a and b
+ * Return: 0 or 1
  */
 int _isupper(int c)
 {
