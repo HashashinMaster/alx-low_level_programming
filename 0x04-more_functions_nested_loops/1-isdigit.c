@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _isupper - check if parameter is upper
+* _isdigit - check if parameter is digit
 * @c: The first integer
 *
 * Return: 0 or 1
