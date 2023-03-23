@@ -5,7 +5,7 @@
  * @a: int
  * @b: int
  *
- * Return: Always 0.
+ * Return: multiple of 2 ints.
  */
 int mul(int a, int b)
 {
