@@ -11,7 +11,7 @@ int _isdigit(int c)
 	char digits[] = "0123456789";
 	int i;
 
-	for (i = 0; digits[i] != '\0'; i++)
+	for (i = 0;digits[i] != '\0';i++)
 		if(c == digits[i])
 			return (1);
 	return (0);
