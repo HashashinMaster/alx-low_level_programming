@@ -4,6 +4,7 @@
  * @dest: char to check
  * @src: char to check
  * Description: copy string
+ * Return: string
  */
 char *_strcpy(char *dest, char *src)
 {
