@@ -1,16 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 
 /**
  * cap_string - capitalizes all words in a string
- * @s: string
+ * @p: string
  * Return: pointer
  */
 char *cap_string(char *p)
 {
-	char regex[] = {' ','\t','\n',',',';','.','!','?','"','(',')','{','}','\0'};
-	int i,j;
+	char regex[] = {
+		' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\0'
+	};
+	int i, j;
 
 	for (i = 0; *(p + i) != '\0'; i++)
 	{
@@ -32,7 +33,5 @@ char *cap_string(char *p)
 			}
 		}
 	}
-
 	return (p);
-		
 }
