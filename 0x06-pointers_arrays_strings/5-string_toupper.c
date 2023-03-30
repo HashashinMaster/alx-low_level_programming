@@ -14,7 +14,7 @@ char *string_toupper(char *p)
 			*p -= 32;
 		i++;
 	}
-	while (i >= 0)
+	while (i > 0)
 	{
 		i--;
 		p--;
