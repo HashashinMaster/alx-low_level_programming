@@ -1,6 +1,13 @@
+#include "main.h"
+/**
+ * factorial - factorial of int
+ * @n:int
+ * Return:int
+ */
 int factorial(int n)
 {
 	int n2;
+
 	if (n > 0)
 	{
 		n2 = n * factorial(n - 1);
