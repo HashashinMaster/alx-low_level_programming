@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	if (s2 != NULL)
 	{
 	for (j = 0; s2[j] != '\0'; j++)
-		strConc[j + i] = s2[j];
+		strConc[j + s1Length] = s2[j];
 	}
 	strConc[length] = '\0';
 	return (strConc);
