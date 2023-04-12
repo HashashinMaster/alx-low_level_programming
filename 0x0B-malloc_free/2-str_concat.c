@@ -11,7 +11,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int s1Length = 0, s2Length = 0, length, i, j;
+	int s1Length = 0, s2Length = 0, length, i = 0, j;
 	char *strConc;
 
 	if (s1 != NULL)
@@ -34,8 +34,8 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (s2 != NULL)
 	{
-		for (j = 0; j < s2Length; j++)
-			strConc[j + s1Length] = s2[j];
+		for (j = 0; j < s2Length; j++, i++)
+			strConc[i] = s2[j];
 	}
 	strConc[length] = '\0';
 	return (strConc);
