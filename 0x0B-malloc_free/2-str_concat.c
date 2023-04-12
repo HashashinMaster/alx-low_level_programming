@@ -34,4 +34,4 @@ char *str_concat(char *s1, char *s2)
 		strConc[j + i] = s2[j];
 	strConc[length] = '\0';
 	return (strConc);
-
+}
